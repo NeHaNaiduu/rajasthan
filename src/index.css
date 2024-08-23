@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.information{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* body{
+  display: flex;
+  align-items: center;
+} */
+:root {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.blueline{
+  width: 100%;
+  height: 1vmin;
+}
+.nav-bar{
+  background-color: rgb(224, 223, 223);
+  padding: 2vmin 16vmin;
+}
+.nav-bar .nav-list .list li,
+.sidelist li{
+  list-style: none;
+  font-weight: 700;
+}
+.nav-bar .nav-list .search-box{
+  display: flex;
+  align-items: center;
+}
+.nav-bar .nav-list .search-box input{
+  padding: 0.6vmin;
+  margin-right: 0.2rem;
+  border: 1px solid;
+}
+.nav-bar .nav-list .search-box label{
+  font-weight: 700;
+  border: 1px solid black;
+  padding: 0.6vmin 1vmin; 
+  color: white;
+  background-color: rgb(189, 186, 186);
+}
+.nav-bar .nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-list .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.for-enquiry{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+font-size: 0.8rem;
+}
+.for-enquiry div{
+  display: flex;
+  padding: 1vmin;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.for-enquiry ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  font-weight: 600;
+}
+.for-enquiry ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.for-enquiry div p{
+  font-weight: 600;
+}
+.for-enquiry div p span{
+  color: black;
+}
+.maps-customized-list::before{
+  content: '>';
+}
+.bars{
+  display: none;
+}
+.responsive-navlist{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidelist{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+}
+.common-tools:nth-child(6) .divider-line{
+  display: none;
+}
+.common-tools:nth-child(6) .tool-name{
+  margin: 0;
+}
+.sidelist.active{
+  display: flex;
+}
+
+.top-bar{
+  width: 100%;
+}
+@media (max-width:768px) {
+  .bars{
+    display: block;
+  }
+  .responsive-navlist{
+    display: flex;
+  }
+  .nav-bar .nav-list .list{
+    display: none;
+  }
+  .sidebar{
+    display: none;
+  }
+  .for-enquiry{
+    display: none;
+  }
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-content{
+    width: 100%;
+    margin: 0 1vmin;
+  }
+  #root{
+    width: 100%;
+  }
+  .main{
+    display: block;
+    margin: 0 1vmin;
+  }
+  .districts-table{
+    overflow-x: auto;
+  }
+  .different-maps{
+    overflow-x: scroll;
+  }
+}
