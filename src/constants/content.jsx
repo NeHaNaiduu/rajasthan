@@ -4,10 +4,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 
 export const NavItems=[
-    {id:1,name:"English",path:"english"},
-    {id:2,name:"Elections",path:"elections"},
-    {id:3,name:"Maps",path:"maps"},
-    {id:4,name:"My India",path:"myindia"},
+    {id:1,name:"English",path:"english",options:['Hindi','Bengali','Malayalam','Tamil']},
+    {id:2,name:"Elections",path:"elections",options:['Assembly Election','Punjab Election','Uttar Pradesh Election','Uttarakhand Election','Goa Election','Manipur Election']},
+    {id:3,name:"Maps",path:"maps",options:['India Maps','World Maps','State Maps','Utility Maps','Language Maps','Thematic Map']},
+    {id:4,name:"My India",path:"myindia",options:['My India','Travel','Food','IMO','India','Cricket','Reviews','Movies','Politics']},
     {id:5,name:"Travel",path:"travel"},
     {id:6,name:"Other",path:"other"},
 ]
@@ -25,7 +25,6 @@ export const NavRightItems=[
 export const EnquiryItems=[
     {id:1, name:"India Map"},
     {id:2, name:"India Map"},
-    {id:3, name:"Rajasthan Map"}
 ]
 
 // export const SidebarItems=[
@@ -236,6 +235,9 @@ export const DifferentRajasthanMaps=[
     {id:3,href:"rajasthan-railway-thumbnail.jpg",name:"Rail Network Map"},
     {id:4,href:"rajasthan-road-thumbnail.jpg",name:"Rajasthan Road Map"},
     {id:5,href:"rajasthan-tourism-thumbnail.jpg",name:"Rajasthan Tourism Map"},
+    {id:5,href:"rajasthan-tourism-thumbnail.jpg",name:"Rajasthan Tourism Map"},
+    {id:5,href:"rajasthan-tourism-thumbnail.jpg",name:"Rajasthan Tourism Map"},
+    
 ]
 
 export const Tools=[
@@ -245,4 +247,110 @@ export const Tools=[
     {id:4,href:"school-bus_8160193.png",name:"Bus Schedule"},
     {id:5,href:"slumber_991943.png",name:"Hotels Finder"},
     {id:6,href:"calendar_2693507.png",name:"Events Finder"},
+]
+export const Rajasthantable=[
+    {id:1,name:"Geography",href:'/geography'},
+    {id:2,name:"Population",href:'/geography'},
+    {id:3,name:"Geography",href:'/geography'},
+    {id:4,name:"History",href:'/geography'},
+    {id:5,name:"Desert",href:'/geography'},
+    {id:6,name:"History",href:'/geography'},
+    {id:7,name:"Weather",href:'/geography'},
+    {id:8,name:"Quick Facts",href:'/geography'},
+    {id:9,name:"Weather",href:'/geography'},
+    {id:10,name:"Area",href:'/geography'},
+    {id:11,name:"Soil and Vegetation",href:'/geography'},
+    {id:12,name:"Area",href:'/geography'},
+    {id:13,name:"Languages",href:'/geography'},
+    {id:14,name:"Art",href:'/geography'},
+    {id:15,name:"Languages",href:'/geography'},
+]
+export const Rajasthanmaptable=[
+    {id:1,name:"Sex Ratio Map",href:'/geography'},
+    {id:2,name:"Mineral Map",href:'/geography'},
+    {id:3,name:"Mineral Map",href:'/geography'},
+    {id:4,name:"Elevation Map",href:'/geography'},
+    {id:5,name:"Physical Map",href:'/geography'},
+    {id:6,name:"Physical Map",href:'/geography'},
+    {id:7,name:"Lat Long Map",href:'/geography'},
+    {id:8,name:"Railway Map",href:'/geography'},
+    {id:9,name:"Railway Map",href:'/geography'},
+    {id:10,name:"Outline Map",href:'/geography'},
+    {id:11,name:"Road Map",href:'/geography'},
+    {id:12,name:"Road Map",href:'/geography'},
+    {id:13,name:"District Map",href:'/geography'},
+    {id:14,name:"Tehsil Map",href:'/geography'},
+    {id:15,name:"Tehsil Map",href:'/geography'},
+]
+export const Rajasthanhotelstable=[
+    {id:1,name:"Ajmer Hotels",href:'/geography'},
+    {id:2,name:"Jhunjhunu Hotels",href:'/geography'},
+    {id:3,name:"Pushkar Hotels",href:'/geography'},
+    {id:4,name:"Alwar Hotels",href:'/geography'},
+    {id:5,name:"Jodhpur Hotels",href:'/geography'},
+    {id:6,name:"Ranakpur Hotels",href:'/geography'},
+    {id:7,name:"Behror Hotels",href:'/geography'},
+    {id:8,name:"Khimsar Hotels",href:'/geography'},
+    {id:9,name:"Sadri Hotels",href:'/geography'},
+    {id:10,name:"Bharatpur Hotels",href:'/geography'},
+    {id:11,name:"Kumbhalgarh Hotels",href:'/geography'},
+    {id:12,name:"Sawai Madhopur Hotels",href:'/geography'},
+    {id:13,name:"Bikaner Hotels",href:'/geography'},
+    {id:14,name:"Mandawa Hotels",href:'/geography'},
+    {id:15,name:"Shree Mahavirji Hotels",href:'/geography'},
+    {id:16,name:"Dausa Hotels",href:'/geography'},
+    {id:17,name:"Mount Abu Hotels",href:'/geography'},
+    {id:18,name:"Sri Ganganagar Hotels",href:'/geography'},
+    {id:19,name:"Jaipur Hotels",href:'/geography'},
+    {id:20,name:"Pali Hotels",href:'/geography'},
+    {id:21,name:"Udaipur Hotels",href:'/geography'},
+    {id:22,name:"Jaisalmer Hotels",href:'/geography'},
+    {id:23,name:"Phalodi Hotels",href:'/geography'},
+]
+export const Rajasthanvisittable=[
+    {id:1,name:"Ajmer",href:'/geography'},
+    {id:2,name:"Jodhpur",href:'/geography'},
+    {id:3,name:"Ranakpur",href:'/geography'},
+    {id:4,name:"Barmer",href:'/geography'},
+    {id:5,name:"Jodhpur",href:'/geography'},
+    {id:6,name:"Samode",href:'/geography'},
+    {id:7,name:"Bikaner",href:'/geography'},
+    {id:8,name:"Kota",href:'/geography'},
+    {id:9,name:"Pushkar",href:'/geography'},
+    {id:10,name:"Bundi",href:'/geography'},
+    {id:11,name:"Kumbhalgarh",href:'/geography'},
+    {id:12,name:"Udap",href:'/geography'},
+    {id:13,name:"Chittaurgarh",href:'/geography'},
+    {id:14,name:"Mandawa",href:'/geography'},
+    {id:15,name:"Jaipur",href:'/geography'},
+    {id:16,name:"Jaisalmer",href:'/geography'},
+    {id:17,name:"Mount Abu",href:'/geography'},
+    {id:18,name:"Mukundhgarh",href:'/geography'},
+    {id:19,name:"Nawalgarh",href:'/geography'},
+    {id:20,name:"Nawalgarh",href:'/geography'},
+]
+export const Rajasthantraveltable=[
+    {id:1,name:"Ajmer Travel",href:'/geography'},
+    {id:2,name:"Jaisalmer Travel",href:'/geography'},
+    {id:3,name:"Pushkar Travel",href:'/geography'},
+    {id:4,name:"Alwar Travel",href:'/geography'},
+    {id:5,name:"Jodhpur Travel",href:'/geography'},
+    {id:6,name:"Ranakpur Travel",href:'/geography'},
+    {id:7,name:"Behror Travel",href:'/geography'},
+    {id:8,name:"Kota Travel",href:'/geography'},
+    {id:9,name:"Samode Travel",href:'/geography'},
+    {id:10,name:"Bharatpur Travel",href:'/geography'},
+    {id:11,name:"Kumbhalgarh Travel",href:'/geography'},
+    {id:12,name:"Sawai Madhopur Travel",href:'/geography'},
+    {id:13,name:"Bikaner Travel",href:'/geography'},
+    {id:14,name:"Mandawa Travel",href:'/geography'},
+    {id:15,name:"Shekhawadi Travel",href:'/geography'},
+    {id:16,name:"Dausa Travel",href:'/geography'},
+    {id:17,name:"Mount Abu Travel",href:'/geography'},
+    {id:18,name:"Udaipur Travel",href:'/geography'},
+    {id:19,name:"Jaipur Travel",href:'/geography'},
+    {id:20,name:"Mukundgarh Travel",href:'/geography'},
+    {id:21,name:"Neemrara Travel",href:'/geography'},
+    {id:22,name:"Jaisalmer Travel",href:'/geography'},
+    {id:23,name:"Nawagarh Travel",href:'/geography'},
 ]

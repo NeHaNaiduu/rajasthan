@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .information{
   max-width: 1000px;
   margin: 0 auto;
@@ -23,41 +24,23 @@
   width: 100%;
   height: 1vmin;
 }
-.nav-bar{
-  background-color: rgb(224, 223, 223);
-  padding: 2vmin 16vmin;
-}
-.nav-bar .nav-list .list li,
-.sidelist li{
-  list-style: none;
+.navbar{
+  font-family:josefin sans;
   font-weight: 700;
+  letter-spacing: 1px;
 }
-.nav-bar .nav-list .search-box{
-  display: flex;
-  align-items: center;
+.get-customized-headin,.footer-list-heading{
+  font-family:josefin sans;
 }
-.nav-bar .nav-list .search-box input{
-  padding: 0.6vmin;
-  margin-right: 0.2rem;
-  border: 1px solid;
+.submenu{
+width: 150px ;
+border-bottom:4px  red solid;
 }
-.nav-bar .nav-list .search-box label{
-  font-weight: 700;
-  border: 1px solid black;
-  padding: 0.6vmin 1vmin; 
-  color: white;
-  background-color: rgb(189, 186, 186);
-}
-.nav-bar .nav-list{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-bar .nav-list .list{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+
+@media screen and (max-width:1024px) {
+  .submenu{
+    width: 100%;
+    } 
 }
 
 .for-enquiry{
@@ -65,7 +48,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-font-size: 0.8rem;
 }
 .for-enquiry div{
   display: flex;
@@ -78,17 +60,14 @@ font-size: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 30%;
-  font-weight: 600;
+  width: 25%;
 }
 .for-enquiry ul li{
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.for-enquiry div p{
-  font-weight: 600;
-}
+
 .for-enquiry div p span{
   color: black;
 }
@@ -123,7 +102,9 @@ font-size: 0.8rem;
 .top-bar{
   width: 100%;
 }
-@media (max-width:768px) {
+
+
+@media (max-width:1024px) {
   .bars{
     display: block;
   }
@@ -146,7 +127,7 @@ font-size: 0.8rem;
   }
   .main-content{
     width: 100%;
-    margin: 0 1vmin;
+    margin: 0 1vmin 0 1vmin;
   }
   #root{
     width: 100%;
@@ -160,5 +141,12 @@ font-size: 0.8rem;
   }
   .different-maps{
     overflow-x: scroll;
+  }
+}
+
+
+@media (max-width:1024px) {
+  .nav-bar{
+    padding: 1vmin 3vmin;
   }
 }

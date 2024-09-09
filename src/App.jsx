@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className='information'>
         <Enquiry/>
-        <Heading/>
+        {/* <Heading/> */}
         <div className='main flex items-start justify-between'>
           <Sidebar/>
           <MainContent/>

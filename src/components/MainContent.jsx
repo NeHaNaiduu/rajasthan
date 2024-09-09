@@ -6,10 +6,12 @@ import DifferentMaps from './DifferentMaps'
 import MainMap from './MainMap'
 import UsefulTools from './UsefulTools'
 import BuyMaps from './BuyMaps'
+import Heading from './Heading'
 
 const MainContent = () => {
   return (
-    <div className='flex-col items-start md:ml-10 md:w-4/5'>
+    <div className='mt-3  flex-col items-start lg:ml-10 md:ml-10 lg:w-[74%] md:w-[74%]'>
+        <Heading/>
         <MainMap/>
         <BuyMaps/>
         <DifferentMaps/>

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Heading = () => {
   return (
-    <div className='bg-sky-600 text-white font-semibold w-full'>
-        <div className='flex items-center justify-between p-1 pl-4 pr-4'>
-            <p>Rajasthan Map</p>
-            <p>राजस्थान का नक्शा</p>
+    <div className='font-bold w-full text-[18px] font-sans'>
+        <div className='flex items-center justify-between p-1'>
+            <h1 className='border-l-4 border-[#FF0000] pl-4'>Rajasthan Map</h1>
+            <h1 className='border-l-4 border-[#FF0000] pl-4'>राजस्थान का नक्शा</h1>
         </div>
     </div>
   )
